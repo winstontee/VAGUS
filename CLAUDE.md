@@ -18,12 +18,17 @@ public launch.
 
 | Fact | Status |
 | --- | --- |
-| Practice | The Vagus Effect — vaguseffect.com |
-| Province | British Columbia, Canada |
-| Designation | **RTCc** (Registered Therapeutic Counsellor Candidate), ACCT Canada |
-| Focus | Complex PTSD (C-PTSD) |
-| Approach | Somatic / vagus-nerve informed — inferred from the practice name, **confirm before using in copy** |
-| Name, bio, voice samples, pricing | **Not yet provided** — leave `[PLACEHOLDER]` markers, never invent |
+| Name | Amber Shanahan |
+| Practice | The Vagus Effect — vaguseffect.com (Squarespace) |
+| Location | Vancouver, BC; sessions online "across Canada" (see compliance questions) |
+| Designation | **RTCc** (Registered Therapeutic Counsellor Candidate), ACCT. Working toward CPCA MPCC-P — **in progress, never claim it** |
+| Focus | Trauma-informed counselling; complex trauma / C-PTSD without pathologising labels |
+| Approach | Relational, somatic, nervous-system (vagus) informed, attachment-aware |
+| Other training | Holistic nutrition, somatic practitioner, somatic EMDR, coaching — full list on her About page |
+| Pricing, email tool | **Not yet provided** — leave `[PLACEHOLDER]` markers, never invent |
+
+`docs/research/current-site.md` summarises her current site, voice and gaps.
+Her own site copy is the voice reference — match it, don't replace it.
 
 ## Non-negotiable rules
 
@@ -67,6 +72,12 @@ public launch.
 Track in `docs/compliance/open-questions.md`. Known ones:
 - ACCT Code of Ethics and Standards of Practice (Aug 2025) — advertising,
   testimonial and supervision-disclosure rules not yet read.
+  acctcounsellor.com blocks automated access (Cloudflare challenge); do not
+  try to bypass it. Use copies the practitioner provides.
+- Online counselling "across Canada": Ontario and Quebec restrict
+  psychotherapy to regulated professionals, and several Atlantic provinces
+  regulate counselling therapy titles. Check whether an RTCc can serve
+  clients there.
 - Whether an RTCc must name her clinical supervisor in marketing.
 - BC is moving counselling under a regulatory college; watch for title
   restrictions.
