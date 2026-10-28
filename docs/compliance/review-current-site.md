@@ -1,310 +1,415 @@
 # Review: current live site (vaguseffect.com)
 
-Reviewer: ethics-reviewer. Date: **2026-10-28**. This is not legal advice.
-Source IDs point to `sources.md`. Related questions are in `open-questions.md`.
+Reviewer: ethics-reviewer. Date: **2026-10-28** (second pass). This is not
+legal advice. Source IDs point to `sources.md`. Related questions are in
+`open-questions.md`.
 
-## What was reviewed, and what wasn't
+## What was reviewed
 
-- **Input:** `docs/research/current-site.md` (a summary dated 2026-10-28),
-  plus two phrases the lead passed on from the live site: "Certified in Somatic
-  EMDR Therapy (60 hours)" and "new neural pathways" (Services page).
-- **vaguseffect.com could not be reached from this session** (DNS blocked).
-  So most "quotes" below are from the summary, not verbatim site text. Each one
-  is labelled:
-  - **[verbatim]**: quoted text as given in the summary or by the lead.
-  - **[paraphrase]**: the summary's description. The exact wording on the site
-    must be checked before editing.
-- Amber wrote this copy herself, and it's good. The voice is calm,
-  non-pathologising and careful about labels. Most fixes below are about
-  wording that a regulator, insurer or anxious reader could misread, not
-  about tone.
+- **Verbatim page text** that the lead captured on 2026-10-28, held in the
+  git-ignored folder `private/site-text/`. Nine files: Home, About, Services,
+  Discovery Call, Contact, and 4 blog posts.
+- Every quote below is **verbatim**, with the page name and the line number in
+  that file. Only the reviewed lines are quoted.
+- **Not reviewed:**
+  - The discovery and contact **form fields**. They aren't in the captured
+    text, probably because they're embedded Squarespace forms.
+  - The Privacy Policy page.
+  - A possible fifth post. The vagus post's "Next" link points to
+    **"Understanding the Vagus Nerve"** (vagus post, line 64), which isn't in
+    the folder. Please capture it.
+- Amber wrote this copy herself, and the core pages are very good: calm,
+  non-pathologising, careful with labels. The Services line on CPTSD is a
+  model for the rest of the repo. Most fixes are about where she offers
+  counselling, safety information, and a few credential and blog lines a
+  regulator or a vulnerable reader could take the wrong way.
 
-## Summary
+## Summary by rule
 
 | Rule (CLAUDE.md) | Result |
 | --- | --- |
-| Title and credentials | **Fix needed:** EMDR wording, MPCC-P wording, supervision not stated, "nutritionist" across provinces |
-| Claims | **Fix needed:** "new neural pathways". Blog posts still to check |
-| Safety | **Fix needed:** no crisis information recorded on any page |
-| Where she practises | **Fix needed:** "across Canada" (top priority) |
-| Testimonials | Pass (none recorded). Confirm |
-| Privacy | Check: discovery form and Privacy Policy |
-| Voice | Pass. One older blog post is off-voice |
-| Insurance | Pass (no claim made). Watch when fees are added |
-
-## Top 3 fixes, in order
-
-1. **Replace "across Canada"** with BC-only wording until provinces are confirmed.
-2. **Add crisis information** to every page footer and the discovery-form confirmation.
-3. **Reword "Certified in Somatic EMDR Therapy (60 hours)"** and the MPCC-P line
-   so neither reads as a credential she doesn't hold.
+| Where she practises | **Fix needed:** "across Canada" on Home and Services |
+| Safety | **Fix needed:** no crisis information on any of the 9 pages. The vagus post recommends fasting and cold showers to a trauma audience |
+| Title and credentials | **Fix needed:** EMDR line, MPCC-P sentence (including the wrong CPCA name), "PTSD Treatment" tags. Check: RHN |
+| Claims | **Fix needed:** "new neural pathways" sentence, the vagus post's outcome claims, uncited research line, "high-functioning anxiety is a … condition" |
+| Testimonials | **Pass:** none on any page |
+| Privacy | **Check:** form fields and Privacy Policy not captured |
+| Voice | Core pages **pass**. Anxiety post and vagus post are off-voice |
+| Insurance | **Pass:** no coverage claims |
+| "Therapist" / "psychotherapy" about herself | **Pass:** never used about herself. Two small "therapy" wording notes |
 
 ---
 
-## 1. Where she practises: "across Canada". FIX NEEDED (high priority)
+## Top 5 fixes, in priority order
 
-**Quote [paraphrase]** (Home / About): Amber Shanahan, counsellor in Vancouver,
-BC, "offering online counselling across Canada".
+### 1. "Across Canada": Home and Services
 
-**Problem**
-- For online sessions, the law of the province the **client** is in applies
-  (open-questions Q1).
-- **Ontario:** people not registered with CRPO "cannot perform the Controlled
-  Act on clients in Ontario" (O2). CRPO says it may act against unregulated
-  out-of-province providers who do (O1). Relational trauma counselling for
-  C-PTSD patterns could plausibly fall inside the controlled act (O5).
-- **Quebec:** psychotherapy is reserved to psychologists, physicians and OPQ
-  permit holders (Q2). OPQ's out-of-province leniency is written for
-  psychologists who are licensed in their home province (Q3). Amber doesn't
-  fit that.
-- **Nova Scotia, New Brunswick, PEI:** these protect titles such as
-  "counselling therapist". NSCCT also bars non-regulated providers from
-  advertising "counselling therapy" to Nova Scotians, and claims complaint
-  jurisdiction over them (N1). PEI reportedly caps unregistered out-of-province
-  practice at 3 clients and under 20% of the caseload, with no advertising in
-  PEI (N5; secondary).
-- ACCT §7.2 requires advertising to be "consistent with applicable law" (A2).
-- "Across Canada" invites enquiries from exactly the provinces where she
-  shouldn't take counselling clients.
+**Current (Home, line 7):**
+> Welcome — I'm Amber Shanahan. I'm a counsellor based in Vancouver, British Columbia, offering trauma-informed counselling online across Canada.
 
-**Suggested rewrite (now):**
-> I offer online counselling to adults living in British Columbia.
-> Live somewhere else in Canada? Reach out, and I'll tell you honestly whether
-> I can work with you where you are.
+**Current (Services, line 7):**
+> I offer one-to-one, trauma-informed counselling for individuals seeking support online across Canada.
 
-**Later, once ACCT and her insurer confirm other provinces:**
-> Online counselling for adults in BC and [PLACEHOLDER: confirmed provinces].
-> I'm not able to offer counselling to people located in Ontario or Quebec.
+**Why:**
+- For online sessions, the law of the province the **client** is in applies.
+- Unregistered practitioners can't perform Ontario's controlled act of
+  psychotherapy on clients there (O1, O2).
+- Quebec reserves psychotherapy to psychologists, physicians and permit
+  holders (Q2).
+- NS, NB and PEI protect "counselling therapist" titles. Nova Scotia also
+  bars non-regulated providers from advertising "counselling therapy" to its
+  residents (N1–N5).
+- ACCT §7.2 requires ads to be consistent with applicable law (A2).
+- Details are in `open-questions.md` Q1.
 
-Also:
-- Discovery form: add "Which province or territory will you be in for our
-  sessions?"
-- Check the same phrase in the page titles, the SEO description, the
-  Instagram bio and any directory listings.
+**Suggested (Home, line 7):**
+> Welcome — I'm Amber Shanahan. I'm a counsellor based in Vancouver, British Columbia, offering trauma-informed counselling online to adults living in BC.
 
----
+**Suggested (Services, line 7):**
+> I offer one-to-one, trauma-informed counselling online for adults living in British Columbia. If you live elsewhere in Canada, you're welcome to ask — I'll let you know honestly whether I can work with you where you are.
 
-## 2. Title and credentials
+Also update any SEO descriptions, the Instagram bio and directory profiles
+that say "across Canada".
 
-### 2a. "Certified in Somatic EMDR Therapy (60 hours)". FIX NEEDED
+### 2. No crisis information anywhere
 
-**Quote [verbatim, per lead]:** "Certified in Somatic EMDR Therapy (60 hours)"
+**Current:** none of the 9 pages mentions 9-8-8, 9-1-1, a crisis line or
+emergency care. The footer on every page has the land acknowledgement and
+diversity statement, but no safety line. The page people land on after
+asking for a call says:
 
-**Problem**
-- "Certified in … EMDR Therapy" reads like the recognised **EMDR
-  certification**. In Canada that's EMDRIA's Certified EMDR Therapist, which
-  requires approved basic training, 50+ EMDR sessions, 20 consultation hours
-  and post-licence experience (R2; details from secondary snippets).
-- A 60-hour "Somatic EMDR Therapy **Certificate**" is sold as a continuing-
-  education certificate (R1, which may be her provider; not confirmed). A
-  course certificate is not certification.
-- It also implies she provides **EMDR therapy** to clients. EMDR includes
-  trauma-memory reprocessing. ACCT §7.5 bars advertising specialised services
-  without the right education, training **or supervised experience** (A2).
-  Whether an RTCc may offer EMDR, and under whose supervision, is open
-  (open-questions Q6).
-- ACCT §7.1 requires accurate representation of training (A2).
+**Current (Discovery Call, line 6):**
+> I'll be in touch by email within 1–2 business days. I look forward to connecting.
 
-**Suggested rewrite** (pick the one that's true):
-- If it was a CE course and she doesn't offer full EMDR:
-  > Somatic EMDR Therapy Certificate, [PLACEHOLDER: provider], 60-hour course
-- If she does use EMDR methods with clients, add a plain line about how, and
-  confirm with ACCT and her supervisor first. Don't use "certified" unless an
-  EMDR certifying body granted it.
+**Why:** CLAUDE.md requires crisis information on every page about trauma.
+Someone in crisis who fills in the form would wait up to 2 business days with
+no other option offered.
 
-Avoid "Certified in", "EMDR-certified", "EMDR therapist", and listing "EMDR"
-as a service.
+**Suggested (Discovery Call, line 6):**
+> I'll be in touch by email within 1–2 business days. I look forward to connecting.
+> If you need support sooner, please call or text 9-8-8, any time. In an emergency, call 9-1-1.
 
-### 2b. CPCA MPCC-P "in progress". FIX NEEDED
+**Suggested site-wide footer**, placed above the land acknowledgement. Numbers
+were checked via search on 2026-10-28; see `open-questions.md` Q5.
+> **Need help now?** If you're thinking about suicide or are in crisis, call or text **9-8-8**, any time. In an emergency, call **9-1-1** or go to your nearest emergency department. In BC, you can also call **310-6789** (no area code) for mental health support, or the **KUU-US Crisis Line** at **1-800-588-8717** for Indigenous people. I'm not able to respond to urgent messages.
 
-**Quote [paraphrase]** (About): "working toward CPCA MPCC-P with supervised
-hours in progress"
+### 3. Vagus nerve post: unsafe tips and outcome claims (also on the Home page)
 
-**Problem**
-- CLAUDE.md: "in progress, never claim it." Saying "working toward" isn't a
-  claim. But an acronym in a credentials list gets copied into Google
-  snippets, directory profiles and AI summaries without the "working toward".
-- The CPCA has made a member stop using MPCC designations they weren't
-  entitled to (R3). So it does enforce this.
-- We couldn't confirm what "MPCC-P" stands for (R4). If "P" means
-  "provisional", she may already hold a provisional status. That needs
-  checking (open-questions Q6).
+This post is the one most likely to cause harm. It also has the strongest
+claims, and its teaser sits on the Home page (Home, lines 29–30).
 
-**Suggested rewrite:** take it out of the credentials list. If she wants to
-keep it, put it in her story text, without the acronym:
-> I'm also completing supervised clinical hours toward a further counselling
-> designation with the Canadian Professional Counsellors Association.
+**Current (vagus post, line 38):**
+> If you're interested, start with a simple fasting routine and observe how your body responds.
 
-### 2c. RTCc and supervision. FIX NEEDED (small)
+**Current (vagus post, line 33):**
+> Adding a quality probiotic or omega-3 supplement to your routine might just give your vagus nerve a boost.
 
-**Quote [paraphrase]** (About): "RTCc with ACCT"
+**Current (vagus post, line 40):**
+> Try ending your shower with a cold rinse and feel the invigorating effects!
 
-**Status:** the title itself is fine. CLAUDE.md allows "RTCc" and "RTC
-Candidate (ACCT)".
+**Current (vagus post, line 41):**
+> When you activate your vagus nerve, you unlock a remarkable ability to enhance your body's stress recovery and elevate your overall well-being.
 
-**Problem**
-- Readers don't know what RTCc means. ACCT requires an RTCc to be "under
-  direct supervision" (A4). Saying so is honest, and it builds trust with this
-  audience.
-- RTCc status is capped at 2 years (A4, A5). The site will need updating when
-  it changes.
+**Current (vagus post, line 15, excerpt):**
+> Get ready to unveil the secrets of activating your vagus nerve and unleashing your inner superhero! … Get ready to embark on an exciting journey toward better mental and physical health!
 
-**Suggested rewrite:**
-> RTC Candidate with the Association of Cooperative Counselling Therapists of
-> Canada (ACCT). As a candidate, I practise under regular clinical supervision.
+**Why:**
+- **Fasting.** Recommending fasting to a trauma audience is a safety risk.
+  Disordered eating often co-occurs with trauma, and fasting can also be
+  unsafe with diabetes, pregnancy or some medications. This is general
+  clinical knowledge, not checked against a source in this session.
+- **Supplements and cold showers.** These are health advice outside a
+  counselling scope, given with no "check with your doctor". Amber is also an
+  RHN, but this page sells counselling (`open-questions.md` Q9).
+- **Outcome claims.** "Unlock a remarkable ability", "better mental and
+  physical health" and "Even gargling can make a difference!" (line 23) are
+  outcome claims. ACCT §7.1 bars claims of particular outcomes (A2). The
+  Competition Act requires health performance claims to be backed by proper
+  testing done beforehand (P1).
+- **Unverifiable citation.** "a study published in Autonomic Neuroscience:
+  Basic and Clinical … (Stux & Berman, 2013)" (line 20) could not be found.
+  Related work exists in other journals (S10). None of the citations link
+  anywhere.
+- **Tone.** The voice ("superhero", "chill squad", exclamation marks) is far
+  from her own. CLAUDE.md says to avoid hype.
 
-(Whether the supervisor must be named publicly is open: open-questions Q3.)
+**Suggested:**
+- Unpublish the post, or set it to draft, until it's rewritten.
+- Replace the Home page teaser (lines 29–30) with one of the somatic posts.
 
-Also check that "therapist", "psychotherapist", "psychotherapy", "clinical
-counsellor" or "RTC" without "Candidate" don't appear anywhere: meta
-descriptions, image alt text, Instagram bio. And never use "counselling
-therapist" or "counselling therapy" about her own work (NS, NB, PEI titles).
+If she wants to keep a vagus post, here's a starting point in her voice:
+> **Title:** Small Ways to Support Your Vagus Nerve
+>
+> The vagus nerve is part of how your body moves between alertness and rest. There isn't a switch to flip. But there are small, gentle things that can help your body find a little more settledness.
+>
+> Here are a few to experiment with. Notice what feels supportive, and leave what doesn't.
+> - Slow breathing, with a longer exhale than inhale.
+> - Humming, singing, or chanting.
+> - Gentle movement — a walk, stretching, yoga, or tai chi.
+> - A few minutes of quiet attention to your breath or surroundings.
+> - Splashing cool water on your face.
+>
+> These aren't fixes, and they won't suit everyone. If you have health conditions, check with your doctor before trying something new.
+>
+> If you're in crisis, call or text 9-8-8 any time. In an emergency, call 9-1-1.
 
-### 2d. "Registered Holistic Nutritionist". CHECK
+Keep the citations only if each one is checked and linked.
 
-**Quote [paraphrase]** (About): "Registered Holistic Nutritionist"
+### 4. "Certified in Somatic EMDR Therapy (60 hours)": About
 
-**Problem:** "Nutritionist" isn't protected in BC. It is protected in
-Alberta, Quebec and Nova Scotia, and possibly in NB and PEI (R5; secondary).
-Combined with "across Canada", that could be read as using a protected title
-in those provinces.
+**Current (About, line 18):**
+> Certified in Somatic EMDR Therapy (60 hours)
 
-**Suggested rewrite** (if she doesn't offer nutrition services):
-> Trained in holistic nutrition (RHN)
+**Why:**
+- "Certified in … EMDR Therapy" reads like the recognised EMDR certification
+  (EMDRIA Certified EMDR Therapist). That requires approved basic training,
+  50+ sessions, consultation hours and post-licence experience (R2).
+- A 60-hour somatic EMDR **certificate** is a continuing-education course
+  (R1; provider not confirmed).
+- It also suggests she offers EMDR, and the blog then describes EMDR as a
+  trauma-processing therapy "sometimes integrated into somatic-informed work"
+  (Somatic Therapy Explained, lines 39–40).
+- ACCT §7.5 bars advertising specialised services without the right
+  education, training or supervised experience. §7.1 requires accuracy (A2).
 
-and, once item 1 is fixed, keep the BC framing. If she does offer nutrition
-services, confirm title use province by province (open-questions Q6).
+**Suggested (About, line 18):** keep her list style.
+> Somatic EMDR Therapy Certificate, [PLACEHOLDER: provider] (60 hours)
 
-### 2e. Other certificates: PASS, with one watch item
+If she doesn't offer EMDR, the blog's EMDR paragraph (Somatic Therapy
+Explained, line 40) could end with:
+> EMDR is a specialised therapy that requires specific training and consultation to provide. If you're curious whether it might suit you, I'm happy to talk about it and help you think about next steps.
 
-**Quote [paraphrase]:** "somatic practitioner, … vagal toning, trauma-informed
-coach and other certificates"
+If she does use EMDR methods, confirm with ACCT and her supervisor before
+saying so anywhere (`open-questions.md` Q6).
 
-These are fine as training. Watch: "trauma-informed coach" next to "counsellor"
-can blur what she's offering. Keep coaching out of the counselling service
-description. Note Quebec defines coaching as being for people *not* in
-distress (Q7).
+### 5. The credentials sentence (RTCc, MPCC-P, CPCA): About
 
----
+**Current (About, line 13):**
+> I am a Registered Therapeutic Counsellor Candidate (RTCc) with the Association of Cooperative Counselling Therapists (ACCT) and am currently working toward the Master Practitioner of Clinical Counselling (MPCC-P) designation with the Canadian Professional Counselling Association (CPCA), with supervised clinical hours in progress and ongoing professional development.
 
-## 3. Claims
+**Why:**
+- **Wrong name.** The association is the **Canadian Professional
+  Counsellors Association** (R4, S9), not "Counselling Association". Its
+  master's-level designation is reported as Master Practitioner **in**
+  Clinical Counselling (R3). Please confirm both, and what the "-P" means.
+- **Acronym can be lifted.** One sentence pairs an earned designation (RTCc)
+  with an unearned one (MPCC-P), both with acronyms. Search snippets and
+  directory scrapers keep the acronym and drop "working toward". CLAUDE.md
+  says the MPCC-P is "in progress, never claim it". CPCA has made a member
+  stop using MPCC designations (R3).
+- **Supervision.** The line ties supervision to CPCA. But ACCT requires an
+  RTCc to be under direct supervision (A4). That's worth saying plainly.
+- **Official names.** ACCT's full name ends "of Canada". "Registered
+  Therapeutic Counsellor Candidate" is ACCT's official title and is
+  accurate. CLAUDE.md only lists "RTC Candidate (ACCT)" or "RTCc", so the
+  rewrite uses those. Whether the full form is acceptable is for the
+  CLAUDE.md owner to decide; it isn't an error on her site.
 
-### 3a. "new neural pathways" (Services). FIX NEEDED
-
-**Quote [verbatim fragment, per lead]:** "new neural pathways". The full
-sentence couldn't be retrieved. Paste it in so the rewrite fits.
-
-**Problem**
-- This is a mechanism-and-outcome claim: counselling with her *creates*
-  physical changes in the brain. ACCT §7.1 bars claims of particular outcomes
-  (A2). The Competition Act requires performance claims to be backed by
-  adequate and proper testing beforehand, with a stricter bar for health
-  claims (P1).
-- Neuroplasticity is real. But promising that *these sessions* build new
-  pathways is a stronger claim than the evidence supports for any one
-  practitioner's work.
-- CLAUDE.md: no promises of recovery or guaranteed outcomes.
-
-**Suggested rewrite** (keeps her idea, drops the promise):
-> Our nervous systems keep learning throughout life. With practice and
-> support, new ways of responding can start to feel more familiar.
-
-or
-
-> Over time, many people find these patterns loosen their grip. Change looks
-> different for everyone, and we go at a pace that feels right for you.
-
-(The second version reuses her own phrase "at a pace that feels right for
-you".)
-
-### 3b. Mentions of CPTSD. PASS (confirm exact text)
-
-**Quote [paraphrase]** (Services): mentions complex trauma / CPTSD "gently,
-without requiring a label or diagnosis".
-
-Sounds compliant with CLAUDE.md. When the exact text is pasted in, check for:
-- no "you have C-PTSD" or "if you have CPTSD, you…" lines;
-- a pointer to assessment, e.g. "Only a qualified professional can assess
-  this. You don't need a diagnosis to reach out."
-- no implied specialist status in treating C-PTSD beyond her training
-  (ACCT §7.5).
-
-### 3c. Blog posts. NOT REVIEWED
-
-The four posts (two on somatic therapy, high-functioning anxiety, vagus nerve
-tips) need their full text. Likely things to check:
-- vagus nerve "tips" that promise physical effects (e.g. "reduce
-  inflammation", "reset your nervous system");
-- "somatic therapy" used to describe her own service (prefer "somatic
-  counselling");
-- exercises that walk readers into trauma memories (CLAUDE.md: regulation
-  and grounding only);
-- missing crisis information.
+**Suggested (About, line 13):**
+> I'm an RTC Candidate (RTCc) with the Association of Cooperative Counselling Therapists of Canada (ACCT). As a candidate, I practise under regular clinical supervision. I'm also completing supervised clinical hours toward a further designation with the Canadian Professional Counsellors Association (CPCA), and I continue with ongoing professional development.
 
 ---
 
-## 4. Safety: crisis information. FIX NEEDED (high priority)
+## Other findings
 
-**Problem:** `current-site.md` records **no crisis information** on any page.
-That's a problem on a site about trauma, especially because the discovery
-form says replies take 1–2 business days. Someone in crisis could fill in the
-form and wait. CLAUDE.md requires crisis info on every page about trauma.
+### 6. "New neural pathways": Services. FIX NEEDED
 
-**Suggested addition: site-wide footer** (numbers checked against official
-sources via search on 2026-10-28; see open-questions Q5):
-> **Need help now?** If you're thinking about suicide or are in crisis, call or
-> text **9-8-8**, any time. In an emergency, call **9-1-1** or go to your
-> nearest emergency department. In BC, you can also call **310-6789** (no area
-> code) for mental health support, or the **KUU-US Crisis Line** at
-> **1-800-588-8717** for Indigenous people. This practice can't respond to
-> urgent messages.
+**Current (Services, line 26), full sentence and the one after:**
+> Over time, this kind of attention can support new neural pathways to form — creating more balance, presence, and grounding. Less time caught in the head, and more connection with what's happening in the body, as it unfolds.
 
-**Discovery form and confirmation message:**
-> I reply within 1–2 business days. If you need support sooner, please call or
-> text 9-8-8 any time.
+**Why:** "can support" is hedged, which is good. But the sentence still
+promises two things: a brain mechanism ("new neural pathways to form") and a
+definite result ("creating more balance, presence, and grounding"). ACCT §7.1
+bars claims of particular outcomes (A2). CLAUDE.md bans promised outcomes.
 
----
+**Suggested (Services, line 26).** This keeps her rhythm, her own fragment
+sentence, and the idea that the body learns:
+> Over time, this kind of attention can make room for new ways of responding. Some people notice a little more balance, presence, and grounding — less time caught in the head, and more connection with what's happening in the body, as it unfolds.
 
-## 5. Testimonials. PASS (confirm)
+### 7. "PTSD Treatment" and "Yoga Therapy" tags: blog. FIX NEEDED
 
-None recorded in `current-site.md`. Please confirm there are no Google review
-widgets, Instagram reposts of client messages, or "kind words" sections.
-ACCT §7.6 covers testimonials, but the full text isn't confirmed (A2).
-CLAUDE.md's stricter rule applies: none from current clients.
+**Current:**
+- Exploring Somatic Therapy, line 12: `PTSD Treatment`
+- Somatic Therapy Explained, line 77: `PTSD Treatment`
+- Somatic Therapy Explained, line 81: `Yoga Therapy`
 
-## 6. Privacy. CHECK
+**Why:** tags show up publicly and in search. They label the site as offering
+PTSD treatment and yoga therapy. That suggests specialised clinical services
+(ACCT §7.5) and uses the treatment language that Ontario's controlled act
+turns on (O5).
 
-- The discovery form probably collects sensitive information. Add: "Please
-  don't include details about trauma here. We can talk about that when we
-  meet."
-- Check that the Privacy Policy says what the form collects, where it's
-  stored (Squarespace may store it outside Canada), how long it's kept and
-  who sees it (BC PIPA; open-questions Q8).
+**Suggested:** remove all three, or replace with `Trauma-Informed Care` and
+`Yoga`.
 
-## 7. Voice. PASS
+### 8. Uncited research claim: Exploring Somatic Therapy. FIX NEEDED (small)
 
-Calm, warm, short sentences, non-pathologising ("developed for a reason",
-"at a pace that feels right for you" [verbatim per summary]). This is the
-reference voice. The older "Superhero of Your Own Body" post is off-voice.
-That's a matter for her to consider, not a compliance issue, unless it makes
-health claims (see 3c).
+**Current (line 39):**
+> Research exploring somatic-based approaches suggests that including the body in trauma treatment can support reductions in symptoms such as hyperarousal, anxiety, and post-traumatic stress, along with improvements in emotional regulation and overall well-being.
 
-## 8. Insurance. PASS (watch)
+**Why:** it's an efficacy claim with no source, on a page that ends with a
+booking button (line 50). Line 40 ("no single approach works for everyone")
+is a good balance. Keep it.
 
-No coverage claim recorded. When a fees section is added, don't say sessions
-are covered by extended health. Coverage found so far names RTC, MTC and RCS,
-not candidates (R6; CLAUDE.md). Suggested line:
-> My sessions may not be covered by extended health plans. Please check with
-> your provider before booking.
+**Suggested:**
+> Research on somatic approaches is still growing. Some studies suggest that including the body in trauma treatment may help with symptoms such as hyperarousal and anxiety [PLACEHOLDER: link to a study or review she trusts].
+
+### 9. High-functioning anxiety post. FIX NEEDED (claims and assessment)
+
+**Current (line 14):**
+> High-functioning anxiety is a condition where an individual experiences significant levels of anxiety, yet continues to function at a high level in their daily life.
+
+**Current (line 17):**
+> It's important to recognize that high-functioning anxiety is a real condition that can have a significant impact on an individual's well-being.
+
+**Why:** "high-functioning anxiety" isn't a formal diagnosis (S11;
+secondary sources agree). Calling it "a condition" reads as clinical. The
+post also never points readers to an assessment, which CLAUDE.md requires.
+
+**Suggested (line 14):**
+> "High-functioning anxiety" isn't a formal diagnosis, but many people recognise themselves in it: managing well on the outside while feeling anxious and stretched on the inside.
+
+**Suggested (line 17):**
+> The experience is real, and it can take a toll over time. If anxiety is affecting your sleep, health, or daily life, a doctor or qualified mental health professional can help you understand what's going on.
+
+**Current (line 22):**
+> Stimulants such as caffeine, nicotine, and sugar can exacerbate anxiety symptoms.
+
+**Why:** sugar isn't a stimulant.
+
+**Suggested:**
+> Caffeine and nicotine can make anxiety feel stronger for some people.
+
+**Current (line 19, last sentence):**
+> Aim for at least 30 minutes of moderate exercise daily.
+
+**Suggested:**
+> Gentle, regular movement that suits your body can help. If you have health concerns, check with your doctor first.
+
+**Current (line 18, first sentence):**
+> High-functioning anxiety is often caused by specific triggers.
+
+**Suggested:**
+> Anxiety often follows patterns, and noticing what tends to set it off can be a helpful first step.
+
+**Voice:** this post reads as a generic list ("Identify Triggers", "Practice
+Self-Care") rather than in her voice. Fine to keep after the fixes above. A
+rewrite in her voice can come later.
+
+### 10. EMDR description in the blog. PASS on its own, linked to fix 4
+
+**Current (Somatic Therapy Explained, line 39):**
+> EMDR is a trauma-focused therapy that incorporates bilateral stimulation, such as eye movements, while processing distressing experiences.
+
+This is an accurate description of a field and doesn't say she offers EMDR.
+The risk only comes from pairing it with the About line ("Certified in Somatic
+EMDR Therapy"). Fix 4 handles that.
+
+### 11. "Therapy" vs "counselling" for her own work. PASS, with two small notes
+
+No page calls Amber a therapist or psychotherapist. The blog uses "somatic
+therapy" for the field and "somatic-informed counselling" for her own work
+(Exploring Somatic Therapy, line 47). That's the right line. Two small
+tidy-ups:
+
+- Somatic Therapy Explained, line 67: "Somatic-informed counselling is less
+  about methods and more about how therapy is paced, attuned, and
+  experienced." Suggest "…how counselling is paced, attuned, and
+  experienced."
+- "Sensorimotor Psychotherapy" (Somatic Therapy Explained, lines 35–36) is
+  the proper name of a modality. Fine to explain. Don't list it as something
+  she offers.
+
+### 12. CPTSD and labels: Services. PASS
+
+**Current (Services, line 19):**
+> Some people later encounter terms like complex trauma or CPTSD. Others never use that language at all. What matters here isn't a label, but your lived experience and what you're noticing now.
+
+This is exactly the framing CLAUDE.md asks for. It doesn't diagnose, and it
+doesn't require a label. The same goes for About, line 26 ("You don't need a
+diagnosis or a particular story to work with me.") and Services, line 20.
+Optional: add after line 20, "If you'd like a formal assessment, a doctor or
+psychologist can help with that."
+
+### 13. "Registered Holistic Nutritionist (1,200 hours)": About. CHECK
+
+**Current (About, line 16):**
+> Registered Holistic Nutritionist (1,200 hours)
+
+**Why:** "Nutritionist" isn't protected in BC. It is protected in AB, QC and
+NS, and possibly NB and PEI (R5). Once fix 1 limits the site to BC, the risk
+is low. "Registered" can read as government-regulated, so naming the issuing
+school helps readers.
+
+**Suggested:**
+> Registered Holistic Nutritionist (RHN), [PLACEHOLDER: issuing school] (1,200 hours)
+
+### 14. Other training list items: About. PASS, with notes
+
+- **"Certified Integrative Somatic Practitioner (60 hours)"** (line 17) and
+  the coaching certificates (lines 19, 22, 23). These are course-provider
+  certificates and don't clash with a recognised credential. Fine.
+  Optional: name the providers.
+- **"Becoming a Spiritual Healing Practitioner Level I: The Essentials (in
+  progress, 1-year program)"** (line 15). It's honestly labelled "in
+  progress". Her call whether it belongs in a counselling credentials list,
+  since it can blur what a session involves.
+- The heading **"My broader holistic training includes:"** (line 14) helps
+  frame these as training rather than services. Keep it.
+
+### 15. Home page "Change doesn't come from insight alone" sentence. PASS
+
+**Current (Home, line 19):**
+> By paying attention to both the mind and body, counselling can help us develop a different relationship with ourselves and gradually discover new ways of responding.
+
+Hedged ("can help", "gradually") with no promised result. Fine as is.
+
+### 16. Testimonials. PASS
+
+There are no testimonials, reviews or client quotes on any page. The Ram Dass
+quote (Services, lines 31–32) is not a testimonial.
+
+### 17. Insurance. PASS
+
+No page mentions insurance or coverage. When fees are added, see
+`open-questions.md` Q7.
+
+### 18. Privacy. CHECK (not captured)
+
+The form fields on Discovery Call and Contact, and the Privacy Policy page,
+weren't in the captured text. Please capture them. Once we have them, check:
+- whether the form asks for health details (suggest adding: "Please don't
+  include details about trauma here. We can talk about that when we meet.");
+- whether the Privacy Policy covers storage, retention and access (Q8).
+
+### 19. Voice. Core pages PASS. Two posts off-voice
+
+- **Home, About, Services:** her voice at its best. They're the reference
+  for every draft in this repo.
+- **Contact, line 6:** "Let's connect and explore how we can work together
+  effectively!" is a little salesy next to the rest. Optional: "If you'd like
+  to book a free 10-minute call or have a question, you're welcome to get in
+  touch."
+- **Anxiety post and vagus post:** off-voice; see fixes 3 and 9.
+- **Somatic posts:** close to her voice. They lean on "healing" (titles,
+  tags, lines 21 and 43), which CLAUDE.md avoids in our drafts. That's a
+  gentle note for her, not a compliance issue.
+
+### 20. Self-guided trauma processing. PASS
+
+No post walks readers through memory work. The somatic posts stress pacing
+and safety, for example "In trauma-informed contexts, breath is approached
+carefully, as certain techniques can be activating" (Somatic Therapy
+Explained, line 52). That's good practice.
 
 ---
 
 ## For the team
 
-- **web-developer / content-writer:** don't copy "across Canada", "Certified
-  in Somatic EMDR Therapy" or "new neural pathways" into new drafts. Use the
-  rewrites above as `[PLACEHOLDER]`-style suggestions for Amber to put in her
-  own words.
-- **Amber:** the edits to her live Squarespace site are hers to make. These
-  are suggestions. Please paste in the full text of the Home, About and
-  Services pages and the four blog posts so we can quote them exactly.
+- **content-writer / web-developer:** don't reuse "across Canada", "Certified
+  in Somatic EMDR Therapy", "new neural pathways", "activate your vagus
+  nerve", or the "PTSD Treatment" tag in new drafts. The rewrites above are
+  suggestions for Amber to put in her own words.
+- **Lead:** please capture the possible fifth post ("Understanding the Vagus
+  Nerve"), the form fields and the Privacy Policy into `private/site-text/`.
+- **Amber:** the live Squarespace edits are hers to make. Suggested order:
+  fixes 1–5 first, then 6–9.

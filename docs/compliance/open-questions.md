@@ -6,8 +6,10 @@ to confirm. Source IDs (A1, O1, …) point to `sources.md`.
 
 **Evidence limit.** No regulator page or PDF could be opened in this session:
 WebFetch was blocked, and acctcounsellor.com and vaguseffect.com failed DNS.
-Every finding below rests on web-search snippets. Treat each one as "likely,
-confirm before relying on it".
+Every regulatory finding below rests on web-search snippets. Treat each one
+as "likely, confirm before relying on it". Amber's **site text**, though, is
+now verbatim: the lead captured it on 2026-10-28 into the git-ignored
+`private/site-text/`. See `review-current-site.md`.
 
 **Confidence scale**
 - **High:** several primary-source snippets agree.
@@ -111,6 +113,14 @@ this is confirmed, the site should not say "across Canada".
   Psychologists. No in-force date found (N7). Newfoundland and Labrador, SK,
   MB and the territories appear unregulated for counselling (N6, Q5). That
   could change, so recheck before adding any of them to the site.
+
+### Confirmed on the live site
+"Across Canada" appears verbatim twice:
+- Home, line 7: "…offering trauma-informed counselling online across Canada."
+- Services, line 7: "…for individuals seeking support online across Canada."
+
+No page names any province other than BC. No page uses "psychotherapist" or
+"counselling therapist" about Amber.
 
 ### Recommended site wording (practical)
 - **Now (safest):** "Online counselling for adults living in British
@@ -235,6 +245,9 @@ open those either. What follows is from search snippets of ACCT's own pages
   require supervisees to tell **clients** about their supervisee status, and
   often the supervisor's name, in **informed consent**, not in advertising.
   Those codes don't bind her; they're context only.
+- **What her site says now:** About, line 13 mentions "supervised clinical
+  hours in progress", but ties them to the CPCA designation. It doesn't say
+  that she practises under supervision as an RTCc.
 - **Recommendation until confirmed:** say on the site that she practises
   under clinical supervision. Name the supervisor in the client consent form,
   not necessarily on the site. Example: "As an RTC Candidate, I practise under
@@ -264,8 +277,10 @@ open those either. What follows is from search snippets of ACCT's own pages
    on advertising an in-progress designation.
 10. **Her Somatic EMDR certificate:** provider, course title, hours, and
     whether it's EMDRIA- or EMDR Canada–approved basic training.
-11. **The full current text of her site pages and the 4 blog posts**, pasted
-    in. We couldn't reach vaguseffect.com from here.
+11. ~~Full site text~~. Received 2026-10-28 (`private/site-text/`). Still
+    missing: the **form fields** on Discovery Call and Contact, the **Privacy
+    Policy** page, and a possible fifth post, **"Understanding the Vagus
+    Nerve"**, which the vagus post links to as "Next".
 
 ### Still needs a human
 - [ ] **Amber:** send items 1–11 above. Put ACCT documents in a private
@@ -382,13 +397,32 @@ whose hours need confirming.
 
 ## Q6. Credential wording on her current site (EMDR, MPCC-P, nutritionist)
 
-See `review-current-site.md` for quotes and rewrites. Open points:
+See `review-current-site.md` for quotes and rewrites. Verbatim wording,
+About page:
+- Line 13: "…currently working toward the Master Practitioner of Clinical
+  Counselling (MPCC-P) designation with the Canadian Professional Counselling
+  Association (CPCA)…"
+- Line 16: "Registered Holistic Nutritionist (1,200 hours)"
+- Line 18: "Certified in Somatic EMDR Therapy (60 hours)"
+
+**What the verbatim text changed.** The CPCA's name is written wrongly on her
+site. It's the "Canadian Professional Counsellors Association" (S9, R3, R4),
+not "Counselling Association". The designation is reported as Master
+Practitioner **in** Clinical Counselling (R3).
+
+Open points:
 - [ ] **Amber:** which provider issued "Somatic EMDR Therapy (60 hours)"?
       Was it EMDRIA- or EMDR Canada–approved basic training? Does she use
       EMDR reprocessing with clients now? If so, under which supervisor's
-      competence? (A2 §7.5; R1, R2.)
-- [ ] **Amber:** what does "MPCC-P" stand for (R3, R4), and when does she
-      expect it?
+      competence? (A2 §7.5; R1, R2.) Her blog describes EMDR as "sometimes
+      integrated into somatic-informed work" (Somatic Therapy Explained,
+      line 40). Together with the About line, that implies she offers it.
+- [ ] **Amber:** what's the exact CPCA designation name, and what does the
+      "-P" in "MPCC-P" mean (R3, R4)? When does she expect it?
+- [ ] **Amber:** "Becoming a Spiritual Healing Practitioner Level I (in
+      progress)" is in her training list (About, line 15). It's honestly
+      labelled. Does ACCT's Scope of Practice say anything about combining
+      spiritual-healing practice with counselling? Low priority.
 - [ ] **Amber:** does she offer nutrition services? "Nutritionist" is a
       protected title in AB, QC and NS, and possibly NB and PEI (R5). If she
       markets to those provinces, use "holistic nutrition training" rather
@@ -406,9 +440,35 @@ See `review-current-site.md` for quotes and rewrites. Open points:
 
 ## Q8. Website privacy (discovery form)
 
+- The form fields and Privacy Policy weren't in the 2026-10-28 capture, so
+  they're still unreviewed.
 - Not researched in depth. The discovery form likely collects sensitive
   information, and Squarespace may store it outside Canada.
 - [ ] **Amber or lawyer:** does the Privacy Policy cover what the form
       collects, where it's stored, how long it's kept, and who sees it, as
       required under BC's PIPA? Add a line to the form: "Please don't include
       details about trauma here. We can talk about that when we meet."
+
+## Q9. Health, nutrition and supplement advice on a counselling site (new, 2026-10-28)
+
+This came from the verbatim blog text. The vagus post recommends a fasting
+routine (line 38), probiotic or omega-3 supplements (line 33) and cold
+showers (line 40). The anxiety post sets exercise and sleep targets
+(lines 19 and 21).
+
+- Amber is an RHN, so nutrition guidance may be within her training. But
+  the site markets counselling under her RTCc, and ACCT §7.5 bars presenting
+  specialised services without the matching training (A2).
+- Fasting advice is a safety concern for a trauma audience, where disordered
+  eating is common. That's general clinical knowledge, not sourced here.
+- The site review recommends unpublishing the vagus post until it's
+  rewritten.
+- [ ] **Amber → ACCT:** may an RTCc give nutrition or supplement guidance on
+      a counselling website? Does it need to be kept clearly separate from
+      counselling?
+- [ ] **Amber:** does she offer nutrition services at all now? If not, drop
+      the supplement and fasting content. If she does, keep it on a separate,
+      clearly labelled page with "check with your doctor" wording.
+- [ ] **Amber:** send the references behind the vagus post's citations. The
+      "Stux & Berman, 2013, Autonomic Neuroscience" study couldn't be found
+      (S10).

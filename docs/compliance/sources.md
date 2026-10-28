@@ -120,3 +120,15 @@ third-party copy of a primary document.
 | R4 | CPCA website | CPCA | P | https://cpca-rpc.ca | What "MPCC-P" means and the rules for in-progress designations were **not found**. |
 | R5 | Dietitian vs nutritionist | Dietitians of Canada | S | https://www.dietitians.ca/Find-A-Dietitian/Difference-Between-Dietitian-and-Nutritionist.aspx | "Nutritionist" is protected in AB, QC and NS, and possibly NB and PEI (sources conflict). Not protected in BC. |
 | R6 | RTC coverage list | Decipher Counselling (practitioner site) | S | https://deciphercounselling.squarespace.com/rtc-coverage | Pacific Blue Cross reimburses ACCT RTC/MTC/RCS on plans that cover clinical counsellors. RTCc not mentioned. |
+
+## Site-review support (second pass, 2026-10-28)
+
+The site text itself came from the lead's verbatim capture in
+`private/site-text/` (git-ignored, captured 2026-10-28). It isn't listed here
+because it's private.
+
+| ID | Document | Publisher | Type | Link | What the snippet supports |
+| --- | --- | --- | --- | --- | --- |
+| S9 | CPCA counsellor directory listing | 211 Saskatchewan | S | https://sk.211.ca/services/canadian-professional-counsellors-association/counsellor-directory/ | The organisation's name is "Canadian Professional Counsellors Association". It grants the RPC designation. |
+| S10 | Auricular Acupuncture and Vagal Regulation (2012 review); systematic review of auricular stimulation (2023) | eCAM via PMC; Frontiers in Neuroscience | S (peer-reviewed) | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3523683/ and https://frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1227858/full | Related evidence does exist. The vagus post's citation "Stux & Berman, 2013, Autonomic Neuroscience" **could not be found**. |
+| S11 | High-functioning anxiety | Medical News Today | S | https://www.medicalnewstoday.com/articles/high-functioning-anxiety | "High-functioning anxiety" is not a recognised distinct diagnosis. Several other secondary sources say it isn't in DSM-5. DSM-5-TR itself was not checked. |
